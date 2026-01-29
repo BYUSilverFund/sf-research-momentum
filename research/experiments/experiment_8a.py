@@ -16,12 +16,12 @@ load_dotenv(override=True)
 start = dt.date(1996, 6, 1)
 end = dt.date(2024, 12, 31)
 price_filter = 5
-signal_name = "vol_scaled_ff3_momentum"
-signal_name_title = "Vol. Scaled Fama French 3 Idio. Momentum"
+signal_name = "vol_scaled_ff5_momentum"
+signal_name_title = "Vol. Scaled Fama French 5 Idio. Momentum"
 IC = 0.05
 gamma = 60
 constraints = ["ZeroBeta", "ZeroInvestment"]
-results_folder = Path("results/experiment_7")
+results_folder = Path("results/experiment_8")
 project_root = os.getenv("PROJECT_ROOT")
 byu_email = os.getenv("BYU_EMAIL")
 
@@ -57,6 +57,8 @@ ff = sfd.load_fama_french(
     'mkt_rf',
     'smb',
     'hml',
+    'rmw',
+    'cma',
     'rf'
 )
 
@@ -73,7 +75,7 @@ ff_betas = (
         pl.col('return_rf')
         .least_squares
         .rolling_ols(
-            pl.col('const', 'mkt_rf', 'smb', 'hml'), 
+            pl.col('const', 'mkt_rf', 'smb', 'hml', 'rmw', 'cma'), 
             window_size=252, 
             min_periods=252,
             mode='coefficients'
@@ -95,7 +97,9 @@ signals = (
                 pl.col('B_const'),
                 pl.col('B_mkt_rf').mul('mkt_rf'),
                 pl.col('B_smb').mul('smb'),
-                pl.col('B_hml').mul('hml')
+                pl.col('B_hml').mul('hml'),
+                pl.col('B_rmw').mul('rmw'),
+                pl.col('B_cma').mul('cma')
             )
         )
         .alias('residual'),
