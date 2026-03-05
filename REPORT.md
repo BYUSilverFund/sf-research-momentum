@@ -38,19 +38,6 @@ In our research, we consider four distinct factor models to calculate the idiosy
 | **Fama-French 5** | <img src="https://github.com/user-attachments/assets/34391a23-8c81-4d32-9416-454cbda323c6" width="400"> |
 | **Barra Factor Model** | <img src="https://github.com/user-attachments/assets/b2bbfcf7-7168-4536-a9dc-00364802cef6" width="400"> |
 
-### Methodology & Signal Construction
-The following steps outline our process for extracting signals and running our backtest experiments.
-
-| Signal Construction Overview | Experimental Design |
-| :---: | :---: |
-| <img src="PASTE_SIGNAL_CONSTRUCTION_URL_HERE" width="450"> | <img src="PASTE_EXPERIMENTS_URL_HERE" width="450"> |
-| *Step-by-step Signal Logic* | *Portfolio Constraints & Active Risk* |
-
-### Theoretical Rationale for Barra
-Suppose the true model of returns is $r_{it} = \sum_{j=1}^{k} \beta_{ij}f_{jt} + e_{it}$. While multiple models $q \in Q$ exist, we pick the one that best explains the contemporaneous cross-section of returns, which is **Barra**.
-
-<img src="PASTE_THEORY_URL_HERE" width="700">
-
 In our research, we examined the performance of idiosyncratic momentum across these factor models. We recognized that using a residual from a factor model with fewer factors would inherently trade momentum on the excluded factors. However, we didn’t know if that would ever be desired or if we should always use Barra. When consulting with Brandon, we received the following explanation for why the idiosyncratic component from Barra is superior:
 
 Suppose the true model of returns is $r_{it} = \sum_{j=1}^{k} \beta_{ij}f_{jt} + e_{it}$. So, you have $k + 1$ things you could forecast if you knew the true model. Suppose there are $Q$ possible actual factor models to choose from to estimate and you choose model $q$. Suppose your proposed factor model is $r_{it} = \sum_{j=1}^{m^q} \gamma_{ij}^q g_{jt}^q + u_{it}^q$, giving you a maximum of $m^q + 1$ things to actually forecast. You can create a momentum signal on those $m^q + 1$ individually or any version of $\sum_{j \in J} \gamma_{ij}^q g_{jt}^q + u_{it}^q$, where $J$ is the set of all subsets of natural numbers up to $m^q$ and including or excluding the "idiosyncratic" term, $u^q$. The cleanest version is computing [signal] separately on each factor and on the idiosyncratic term. Computing [signal] on any of the subsets assumes that the loadings $g^q$ are the same as the optimal signal weights you would have used to combine the signals computed on each component separately, which is weakly suboptimal. The next point is which $q \in Q$ to pick. Pick the one that best explains the contemporaneous cross-section of returns, which is Barra.
