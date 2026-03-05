@@ -40,18 +40,19 @@ The signal construction process begins with standard Momentum, which is calculat
 
 ## 4. Code Structure
 
+```text
 sf-research-momentum/
 ├── research/
 │   ├── experiments/
-│   │   ├── All experiment files
+│   │   └── [All experiment files]
 │   ├── signals/
-│   │   ├── Signal construction images
-│   ├── utils/
-│   │   ├── __init__.py
-│   │   ├── backtest.py
-│   │   └── mvo.py
+│   │   └── [Signal construction images]
+│   └── utils/
+│       ├── __init__.py
+│       ├── backtest.py
+│       └── mvo.py
 ├── results/
-│   ├── All experiment results files
+│   └── [All experiment results files]
 └── README.md
 
 ---
