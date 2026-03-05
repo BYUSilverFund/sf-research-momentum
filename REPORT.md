@@ -78,8 +78,8 @@ In conclusion, we find that signal performance improves monotonically with the e
 ### Full Sample Backtests (Non-Volatility Scaled)
 | Chart | Data Table |
 | :---: | :---: |
-| ![Figure 5](https://github.com/user-attachments/assets/498aa9f1-4ce6-4326-b17d-5660a93604e0) | ![Figure 6](https://github.com/user-attachments/assets/d19b1b6d-593c-4d5b-83f3-820336344025) |
-| *Figure 5: Performance Chart* | *Figure 6: Performance Metrics* |
+| <img width="1966" height="926" alt="Image" src="https://github.com/user-attachments/assets/38db8f2a-8a83-47da-b165-b7ab2e4250d9" /> | !<img width="786" height="516" alt="Image" src="https://github.com/user-attachments/assets/3288f91f-9624-48ba-9920-69a69160762c" /> |
+| *Figure 5: Full Sample Active Backtest Chart* | *Figure 6: Full Sample Active Backtest Table* |
 
 ### Volatility-Scaled & COVID-19 Analysis
 | Analysis Type | Chart | Table |
