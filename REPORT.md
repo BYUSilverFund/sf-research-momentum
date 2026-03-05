@@ -84,5 +84,5 @@ In conclusion, we find that signal performance improves monotonically with the e
 ### Volatility-Scaled & COVID-19 Analysis
 | Analysis Type | Chart | Table |
 | :--- | :---: | :---: |
-| **Full Sample (Scaled)** | ![Fig 7](https://github.com/user-attachments/assets/81120634-dff9-4cdb-8969-82622dd74f25)<br><i>Figure 7: Full Sample Performance Chart (Scaled)</i> | ![Fig 8](https://github.com/user-attachments/assets/71f5da71-7b00-4a45-b925-0de6b2b03054)<br><i>Figure 8: Full Sample Performance Metrics (Scaled)</i> |
+| **Full Sample (Volatility-Scaled)** | ![Fig 7](https://github.com/user-attachments/assets/81120634-dff9-4cdb-8969-82622dd74f25)<br><i>Figure 7: Full Sample Performance Chart (Volatility-Scaled)</i> | ![Fig 8](https://github.com/user-attachments/assets/71f5da71-7b00-4a45-b925-0de6b2b03054)<br><i>Figure 8: Full Sample Performance Metrics (Volatility-Scaled)</i> |
 | **COVID-19 Period** | ![Fig 9](https://github.com/user-attachments/assets/192e1bb9-46ba-483e-b294-5c96ecda3de8)<br><i>Figure 9: COVID-19 Period Performance Chart</i> | ![Fig 10](https://github.com/user-attachments/assets/74ea823a-0edf-4e8f-b7b6-ed529c8b4dd7)<br><i>Figure 10: COVID-19 Period Performance Metrics</i> |
