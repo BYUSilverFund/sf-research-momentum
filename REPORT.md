@@ -70,10 +70,10 @@ In conclusion, we find that signal performance improves monotonically with the e
 
 | Description | Visualization |
 | :--- | :--- |
-| **Figure 1:** Standard Momentum Signal | <img src="https://github.com/user-attachments/assets/5d79fe43-dbdc-4d6d-ac7f-68c3c27ffcb8" width="350"> |
-| **Figure 2:** Fama-French 3 Idiosyncratic Momentum | <img src="https://github.com/user-attachments/assets/477c1a41-4ee5-476f-a382-18df2fedb27b" width="350"> |
-| **Figure 3:** Barra Idiosyncratic Momentum | <img src="https://github.com/user-attachments/assets/9ed8fe95-a1a9-416f-9a94-841297092d32" width="350"> |
-| **Figure 4:** Volatility-Scaled Momentum | <img src="https://github.com/user-attachments/assets/7bccdc41-7fea-4774-bb78-d5c447c1560e" width="350"> |
+| **Figure 1:** Standard Momentum Signal | <img width="792" height="638" alt="Image" src="https://github.com/user-attachments/assets/744a6f5f-c1c6-4d36-9c22-c9a9fa16cb15" /> |
+| **Figure 2:** Fama-French 3 Idiosyncratic Momentum | <img width="1154" height="1070" alt="Image" src="https://github.com/user-attachments/assets/9dcabe23-dd38-43d3-82c1-e754429aa6cc" /> |
+| **Figure 3:** Barra Idiosyncratic Momentum | <img width="1120" height="638" alt="Image" src="https://github.com/user-attachments/assets/3b82a6da-b8c4-4724-a0a1-3d9516c73457" /> |
+| **Figure 4:** Volatility-Scaled Momentum | <img width="1198" height="692" alt="Image" src="https://github.com/user-attachments/assets/cf68284b-512b-46d2-90c4-21b9cb0ce1d6" /> |
 
 ### Full Sample Backtests (Non-Volatility Scaled)
 | Chart | Data Table |
