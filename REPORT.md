@@ -85,4 +85,4 @@ In conclusion, we find that signal performance improves monotonically with the e
 | Analysis Type | Chart | Table |
 | :--- | :---: | :---: |
 | **Full Sample (Scaled)** | ![Fig 7](https://github.com/user-attachments/assets/81120634-dff9-4cdb-8969-82622dd74f25)<br><i>Figure 7: Full Sample Performance Chart (Scaled)</i> | ![Fig 8](https://github.com/user-attachments/assets/71f5da71-7b00-4a45-b925-0de6b2b03054)<br><i>Figure 8: Full Sample Performance Metrics (Scaled)</i> |
-| **COVID-19 Period** | ![Fig 9](https://github.com/user-attachments/assets/3bd851db-8e71-4f46-a1fb7132f99c)<br><i>Figure 9: COVID-19 Period Performance Chart</i> | ![Fig 10](https://github.com/user-attachments/assets/5e1272c3-b3ab-4669-8b53-da1b1c225ae)<br><i>Figure 10: COVID-19 Period Performance Metrics</i> |
+| **COVID-19 Period** | ![Fig 9](https://github.com/user-attachments/assets/192e1bb9-46ba-483e-b294-5c96ecda3de8)<br><i>Figure 9: COVID-19 Period Performance Chart</i> | ![Fig 10](https://github.com/user-attachments/assets/74ea823a-0edf-4e8f-b7b6-ed529c8b4dd7)<br><i>Figure 10: COVID-19 Period Performance Metrics</i> |
