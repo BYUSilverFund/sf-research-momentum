@@ -1,8 +1,8 @@
 # Research Report
 
-Momentum Variations
-Andrew Hall, Brandon Waits, Grant Rich
-3/5/26
+# Momentum Variations
+**Andrew Hall, Brandon Waits, Grant Rich**
+*3/5/26*
 
 ---
 
@@ -28,7 +28,28 @@ Experiments require Barra and Fama-French data, all found within the Silver Fund
 
 The economic intuition for the momentum anomaly has been extensively discussed within Silver Fund, specifically the underreaction hypothesis. In this memo, we focus on the rationale for idiosyncratic and volatility-scaled momentum. Standard momentum, as currently implemented by Silver Fund, uses total return momentum, implying that higher-momentum stocks may be high-momentum because the underlying factors they’re exposed to outperform. In reality, the underreaction hypothesis primarily concerns investors' underreaction to firm-specific information.  By using the idiosyncratic component, we can isolate this effect without incorporating unwanted factor risk. Furthermore, volatility scaling addresses the crash risk of standard momentum while limiting the strategy to selecting stocks solely on the basis of high volatility. 
 
-In calculating the idiosyncratic component, we consider the four different factor models familiar to Silver Fund. These factor models are the Capital Asset Pricing Model, Fama-French 3-Factor Model, Fama-French 5-Factor Model, and Barra Factor Model. 
+### Factor Model Specifications
+In our research, we consider four distinct factor models to calculate the idiosyncratic component.
+
+| Model | Equation |
+| :--- | :--- |
+| **CAPM** | <img src="https://github.com/user-attachments/assets/5c0eb1a4-513d-48dd-a63f-41bf54de743d" width="400"> |
+| **Fama-French 3** | <img src="https://github.com/user-attachments/assets/0617a5a5-e197-4be2-8161-3e672988db64" width="400"> |
+| **Fama-French 5** | <img src="https://github.com/user-attachments/assets/34391a23-8c81-4d32-9416-454cbda323c6" width="400"> |
+| **Barra Factor Model** | <img src="https://github.com/user-attachments/assets/b2bbfcf7-7168-4536-a9dc-00364802cef6" width="400"> |
+
+### Methodology & Signal Construction
+The following steps outline our process for extracting signals and running our backtest experiments.
+
+| Signal Construction Overview | Experimental Design |
+| :---: | :---: |
+| <img src="PASTE_SIGNAL_CONSTRUCTION_URL_HERE" width="450"> | <img src="PASTE_EXPERIMENTS_URL_HERE" width="450"> |
+| *Step-by-step Signal Logic* | *Portfolio Constraints & Active Risk* |
+
+### Theoretical Rationale for Barra
+Suppose the true model of returns is $r_{it} = \sum_{j=1}^{k} \beta_{ij}f_{jt} + e_{it}$. While multiple models $q \in Q$ exist, we pick the one that best explains the contemporaneous cross-section of returns, which is **Barra**.
+
+<img src="PASTE_THEORY_URL_HERE" width="700">
 
 In our research, we examined the performance of idiosyncratic momentum across these factor models. We recognized that using a residual from a factor model with fewer factors would inherently trade momentum on the excluded factors. However, we didn’t know if that would ever be desired or if we should always use Barra. When consulting with Brandon, we received the following explanation for why the idiosyncratic component from Barra is superior:
 
