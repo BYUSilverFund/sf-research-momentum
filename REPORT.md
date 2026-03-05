@@ -1,8 +1,6 @@
 # Research Report
 
-# Momentum Variations
-**Andrew Hall, Brandon Waits, Grant Rich**
-*3/5/26*
+**Momentum Variations** **Andrew Hall, Brandon Waits, Grant Rich** *3/5/26*
 
 ---
 
