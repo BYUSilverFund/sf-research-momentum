@@ -78,11 +78,11 @@ In conclusion, we find that signal performance improves monotonically with the e
 ### Full Sample Backtests (Non-Volatility Scaled)
 | Chart | Data Table |
 | :---: | :---: |
-| <img width="1966" height="926" alt="Image" src="https://github.com/user-attachments/assets/38db8f2a-8a83-47da-b165-b7ab2e4250d9" /> | !<img width="786" height="516" alt="Image" src="https://github.com/user-attachments/assets/3288f91f-9624-48ba-9920-69a69160762c" /> |
+| <img width="1966" height="926" alt="Image" src="https://github.com/user-attachments/assets/38db8f2a-8a83-47da-b165-b7ab2e4250d9" /> | <img width="786" height="516" alt="Image" src="https://github.com/user-attachments/assets/3288f91f-9624-48ba-9920-69a69160762c" /> |
 | *Figure 5: Full Sample Active Backtest Chart* | *Figure 6: Full Sample Active Backtest Table* |
 
 ### Volatility-Scaled & COVID-19 Analysis
 | Analysis Type | Chart | Table |
 | :--- | :---: | :---: |
-| **Full Sample (Scaled)** | ![Fig 7](https://github.com/user-attachments/assets/81120634-dff9-4cdb-8969-82622dd74f25) | ![Fig 8](https://github.com/user-attachments/assets/71f5da71-7b00-4a45-b925-0de6b2b03054) |
-| **COVID-19 Period** | ![Fig 9](https://github.com/user-attachments/assets/3bd851db-8e71-4f46-a1fb7132f99c) | ![Fig 10](https://github.com/user-attachments/assets/5e1272c3-b3ab-4669-8b53-da1b1c225ae) |
+| **Full Sample (Scaled)** | <img width="1999" height="903" alt="Image" src="https://github.com/user-attachments/assets/72cf9e4a-bf0e-4f47-84db-be289e81ea8c" /> | <img width="952" height="308" alt="Image" src="https://github.com/user-attachments/assets/eedd81ea-999e-4692-bb32-f0d6eaa42bce" /> |
+| **COVID-19 Period** | <img width="1999" height="913" alt="Image" src="https://github.com/user-attachments/assets/e591b4f6-c813-4e0f-abf0-77e4e17404e2" /> | <img width="956" height="306" alt="Image" src="https://github.com/user-attachments/assets/0bd9e85b-d10b-4102-8bc6-40cf142effdc" /> |
