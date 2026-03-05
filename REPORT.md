@@ -54,6 +54,7 @@ sf-research-momentum/
 ├── results/
 │   └── [All experiment results files]
 └── README.md
+```
 
 ---
 
@@ -65,34 +66,23 @@ In conclusion, we find that signal performance improves monotonically with the e
 
 ---
 
-## Appendix
+## Appendix: Figures and Results
 
-Figure 1: Standard Momentum Signal
-<img width="274" height="219" alt="Image" src="https://github.com/user-attachments/assets/5d79fe43-dbdc-4d6d-ac7f-68c3c27ffcb8" />
+| Description | Visualization |
+| :--- | :--- |
+| **Figure 1:** Standard Momentum Signal | <img src="https://github.com/user-attachments/assets/5d79fe43-dbdc-4d6d-ac7f-68c3c27ffcb8" width="350"> |
+| **Figure 2:** Fama-French 3 Idiosyncratic Momentum | <img src="https://github.com/user-attachments/assets/477c1a41-4ee5-476f-a382-18df2fedb27b" width="350"> |
+| **Figure 3:** Barra Idiosyncratic Momentum | <img src="https://github.com/user-attachments/assets/9ed8fe95-a1a9-416f-9a94-841297092d32" width="350"> |
+| **Figure 4:** Volatility-Scaled Momentum | <img src="https://github.com/user-attachments/assets/7bccdc41-7fea-4774-bb78-d5c447c1560e" width="350"> |
 
-Figure 2: Fama-French 3 Idiosyncratic Momentum Signal
-<img width="340" height="313" alt="Image" src="https://github.com/user-attachments/assets/477c1a41-4ee5-476f-a382-18df2fedb27b" />
+### Full Sample Backtests (Non-Volatility Scaled)
+| Chart | Data Table |
+| :---: | :---: |
+| ![Figure 5](https://github.com/user-attachments/assets/498aa9f1-4ce6-4326-b17d-5660a93604e0) | ![Figure 6](https://github.com/user-attachments/assets/d19b1b6d-593c-4d5b-83f3-820336344025) |
+| *Figure 5: Performance Chart* | *Figure 6: Performance Metrics* |
 
-Figure 3: Barra Idiosyncratic Momentum Signal
-<img width="335" height="187" alt="Image" src="https://github.com/user-attachments/assets/9ed8fe95-a1a9-416f-9a94-841297092d32" />
-
-Figure 4: Volatility-Scaled Momentum
-<img width="395" height="221" alt="Image" src="https://github.com/user-attachments/assets/7bccdc41-7fea-4774-bb78-d5c447c1560e" />
-
-Figure 5: Full Sample Active Backtest
-<img width="587" height="285" alt="Image" src="https://github.com/user-attachments/assets/498aa9f1-4ce6-4326-b17d-5660a93604e0" />
-
-Figure 6: Full Sample Active Backtest Table
-<img width="275" height="180" alt="Image" src="https://github.com/user-attachments/assets/d19b1b6d-593c-4d5b-83f3-820336344025" />
-
-Figure 7: Full Sample Active Backtest Chart (Volatility-scaled)
-<img width="586" height="276" alt="Image" src="https://github.com/user-attachments/assets/81120634-dff9-4cdb-8969-82622dd74f25" />
-
-Figure 8: Full Sample Active Backtest Table (Volatility-scaled)
-<img width="324" height="99" alt="Image" src="https://github.com/user-attachments/assets/71f5da71-7b00-4a45-b925-0de6b2b03054" />
-
-Figure 9: COVID-19 Sample Active Backtest Chart (Volatility-scaled)
-<img width="594" height="282" alt="Image" src="https://github.com/user-attachments/assets/3bd851db-8e71-4f46-8a8c-a1fb7132f99c" />
-
-Figure 10: COVID-19 Sample Active Backtest Table (Volatility-scaled)
-<img width="329" height="100" alt="Image" src="https://github.com/user-attachments/assets/5e1272c3-b3ab-4669-8b53-da1b16c225ae" />
+### Volatility-Scaled & COVID-19 Analysis
+| Analysis Type | Chart | Table |
+| :--- | :---: | :---: |
+| **Full Sample (Scaled)** | ![Fig 7](https://github.com/user-attachments/assets/81120634-dff9-4cdb-8969-82622dd74f25) | ![Fig 8](https://github.com/user-attachments/assets/71f5da71-7b00-4a45-b925-0de6b2b03054) |
+| **COVID-19 Period** | ![Fig 9](https://github.com/user-attachments/assets/3bd851db-8e71-4f46-a1fb7132f99c) | ![Fig 10](https://github.com/user-attachments/assets/5e1272c3-b3ab-4669-8b53-da1b1c225ae) |
